@@ -13,3 +13,5 @@ To exemplify, it can take a word such as `yapmışdı` and return its correct fo
 
 
 <eklerproject@gmail.com>
+
+[Streamlit App:](http://3.83.1.162:8501/)
