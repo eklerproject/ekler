@@ -6,4 +6,4 @@
 * ```pip install streamlit```
 
 #### 2. Start the app:
-```streamlit run app.py```
+* ```streamlit run app.py```
