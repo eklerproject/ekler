@@ -171,7 +171,7 @@ for ek in new_order:
 gargar = analyzer1.lookup(corrected_string) #Good HFST analyzer.
 
 #The output. If the input matches the final output, it gives a "this is correct" message. If it is not, gives the correct form.
-if portakal == gargar[0][0]:
+if input == gargar[0][0]:
   print("Good Job!")
 else:
   print(f"Here is the correct spelling: {gargar[0][0]}")
