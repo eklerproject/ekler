@@ -1,4 +1,4 @@
-# Ekler Project 
+# Project Ekler 
 
 ## Problem Definition
 
