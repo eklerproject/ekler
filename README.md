@@ -6,7 +6,7 @@ Since Turkish is an agglutinative language, memorizing all the suffixes can be p
 
 ## Methods & Processes
 
-Helsinki Finite State Technology package is used for this project. Verbs are categorized into 8 groups according to their voicing features and vowel harmony, and these groups are used for writing the verb lexicons. 2 different transducers are generated: Good HFST and Bad HFST. Bad HFST accepts all entries including inacurrate verbs & suffixes. It takes a possibly badly written input, parses root and suffixes, then returns it as an output. The output of Bad HFST is then used as an input into Good HFST, which has the correct phonological rules in place. Good HFST returns the correct form of the verb as the final output.
+Helsinki Finite State Technology library is used for this project. Verbs are categorized into 8 groups according to their voicing features and vowel harmony, and these groups are used for writing the verb lexicons. 2 different transducers are generated: Good HFST and Bad HFST. Bad HFST accepts all entries including inacurrate verbs & suffixes. It takes a possibly badly written input, parses root and suffixes, then returns it as an output. The output of Bad HFST is then used as an input into Good HFST, which has the correct phonological rules in place. Good HFST returns the correct form of the verb as the final output.
 
 To exemplify, it can take a word such as `yapmışdı` and return its correct form `yapmıştı`.
 
